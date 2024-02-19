@@ -1,0 +1,18 @@
+<%# app/views/quotes/create.turbo_stream.erb %>
+
+<%= turbo_stream.prepend "quotes", @quote %>
+<%= turbo_stream.update Quote.new, "" %>
+<%= render_turbo_stream_flash_messages %>
+
+<!-- alternatively this file could be written as:
+
+<%= turbo_stream.prepend "quotes" do %>
+  <%= render partial: "quotes/quote", locals: { quote: @quote } %>
+<% end %>
+
+This is in block form, and the following expressions are equivalent in rails:
+
+render partial: "quotes/quote", locals: { quote: @quote }
+render @quote
+
+-->

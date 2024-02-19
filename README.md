@@ -1,2 +1,24 @@
-# turbo-rails-quote-editor
-I did the tutorial from hotrails.dev to better understand Turbo (Drive, Frames, Stream) and Hotwire. This repo is a basic "quote editor" from the tutorial. Saving it here so I can quickly refer back to the code when I need to.
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
